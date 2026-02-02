@@ -1,1 +1,2 @@
 /^(.+[_.-])?_dns-sd*[_.-]/
+/_dns-push-tls._tcp.ipv4only.arpa/
