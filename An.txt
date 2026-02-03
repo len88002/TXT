@@ -1,5 +1,5 @@
 
-/^(.+[_.-])?_dns-sd*[_.-]/
+/^(.+[_.-])?_dns-sd._udp*[_.-]/
 /_dns-push-tls._tcp.ipv4only.arpa/
 
 /icu/
