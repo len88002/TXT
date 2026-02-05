@@ -1,7 +1,6 @@
 
+|local$dnsrewrite=NXDOMAIN
 /_dns-sd._udp/
 /_dns-push-tls._tcp.ipv4only.arpa/
 
 ||*.icu^
-
-local
