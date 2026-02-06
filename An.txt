@@ -3,6 +3,6 @@
 /_dns-sd._udp/
 /_dns-push-tls._tcp.ipv4only.arpa/
 
-/cname.pro.bkp-api.adguard-vpn.online/
+/cname.pro.*.adguard-vpn.online/
 
 ||*.icu^
