@@ -1,6 +1,6 @@
 
 |local^$dnsrewrite=NXDOMAIN
-/_dns-sd._udp/
+/_dns-sd._udp|in-addr.arpa/
 /_dns-push-tls._tcp.ipv4only.arpa/
 
 /cname.pro|adguard-vpn.online/
