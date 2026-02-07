@@ -1,9 +1,9 @@
 
 |local^$dnsrewrite=NXDOMAIN
-_dns-sd._udp*in-addr.arpa^
+||_dns-sd._udp*in-addr.arpa^
 |_dns-push-tls._tcp.ipv4only.arpa^
 
-dnscheck.adguard-dns.com^
-cname*adguard-vpn.online^
+||*dnscheck.adguard-dns.com^
+||cname*adguard-vpn.online^
 
 ||*.icu^
