@@ -3,7 +3,7 @@
 ||_dns-sd._udp*in-addr.arpa^
 |_dns-push-tls._tcp.ipv4only.arpa^
 
-||*^$client=192.168.2.1|192.168.50.1,denyallow=dns.msftncsi.com,dnsrewrite=REFUSED
+||*^$client=192.168.2.1|192.168.50.1,denyallow=dns.msftncsi.com,dnsrewrite=NXDOMAIN
 
 ||*dnscheck.adguard-dns.com^
 ||cname*adguard-vpn.online^
