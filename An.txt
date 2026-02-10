@@ -1,11 +1,16 @@
 
+
+!Apple
 |local^$dnsrewrite=NXDOMAIN
 ||_dns-sd._udp*in-addr.arpa^
 |_dns-push-tls._tcp.ipv4only.arpa^
 
-||*^$client=192.168.2.1|192.168.50.1,denyallow=dns.msftncsi.com|pool.ntp.org|fwupdate.asuswrt-merlin.net,dnsrewrite=SERVFAIL
+!router
+||*^$client=192.168.2.1|192.168.50.1,denyallow=dns.msftncsi.com|pool.ntp.org|asus.com|asuswrt-merlin.net|pub.3gppnetwork.org,dnsrewrite=SERVFAIL
 
+!Adguard
 ||*dnscheck.adguard-dns.com^
 ||cname*adguard-vpn.online^
 
+!TLD
 ||*.icu^
