@@ -7,7 +7,8 @@
 
 !router
 ||*^$client=192.168.2.1|192.168.50.1,denyallow=dns.msftncsi.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org,dnsrewrite=SERVFAIL
-||*^$client=192.168.50.192,denyallow=cloudlinks.cn|cloud-links.net
+||www.google.com^$client=192.168.50.192
+||www.baidu.com^$client=192.168.50.192
 
 !Adguard
 ||*dnscheck.adguard-dns.com^
