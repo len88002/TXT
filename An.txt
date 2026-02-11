@@ -1,4 +1,4 @@
-
+! Title: An Filter
 
 !Apple
 |local^$dnsrewrite=NXDOMAIN
@@ -6,7 +6,7 @@
 |_dns-push-tls._tcp.ipv4only.arpa^
 
 !router
-||*^$client=192.168.2.1|192.168.50.1,denyallow=dns.msftncsi.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org,dnsrewrite=SERVFAIL
+||*^$client=192.168.2.1|192.168.50.1$denyallow=dns.msftncsi.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org$dnsrewrite=SERVFAIL
 ||www.google.com^$client=192.168.50.192
 ||www.baidu.com^$client=192.168.50.192
 
