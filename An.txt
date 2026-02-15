@@ -7,6 +7,9 @@
 !DNS64
 ||ipv4only.arpa^$dnsrewrite=NXDOMAIN
 
+!IoT
+||*.service.arpa^$dnsrewrite=NXDOMAIN
+
 !router
 ||*^$dnsrewrite=SERVFAIL,client=192.168.2.1|192.168.50.1,denyallow=dns.msftncsi.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org
 ||www.google.com^$dnsrewrite=NXDOMAIN,client=192.168.50.192
