@@ -24,3 +24,6 @@
 
 !TLD
 ||*.icu^$dnsrewrite=NXDOMAIN
+
+!Format error
+|https://app-measurement.com/sdk-exp^$dnsrewrite=NXDOMAIN
