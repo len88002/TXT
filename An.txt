@@ -3,7 +3,9 @@
 !Apple
 |local^$dnsrewrite=NXDOMAIN
 ||_dns-sd._udp*in-addr.arpa^
-|_dns-push-tls._tcp.ipv4only.arpa^
+
+!DNS64
+||ipv4only.arpa^
 
 !router
 ||*^$client=192.168.2.1|192.168.50.1,denyallow=dns.msftncsi.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org,dnsrewrite=SERVFAIL
