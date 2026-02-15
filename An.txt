@@ -2,19 +2,19 @@
 
 !Apple
 |local^$dnsrewrite=NXDOMAIN
-||_dns-sd._udp*in-addr.arpa^
+||_dns-sd._udp*in-addr.arpa^$dnsrewrite=NXDOMAIN
 
 !DNS64
-||ipv4only.arpa^$dnsrewrite=NOERROR;;
+||ipv4only.arpa^$dnsrewrite=NXDOMAIN
 
 !router
 ||*^$client=192.168.2.1|192.168.50.1,denyallow=dns.msftncsi.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org,dnsrewrite=SERVFAIL
-||www.google.com^$client=192.168.50.192
-||www.baidu.com^$client=192.168.50.192
+||www.google.com^$client=192.168.50.192,dnsrewrite=NXDOMAIN
+||www.baidu.com^$client=192.168.50.192,dnsrewrite=NXDOMAIN
 
 !Adguard
-||*dnscheck.adguard-dns.com^
-||cname*adguard-vpn.online^
+||*dnscheck.adguard-dns.com^$dnsrewrite=NXDOMAIN
+||cname*adguard-vpn.online^$dnsrewrite=NXDOMAIN
 
 !TLD
-||*.icu^
+||*.icu^$dnsrewrite=NXDOMAIN
