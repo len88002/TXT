@@ -16,5 +16,8 @@
 ||*dnscheck.adguard-dns.com^$dnsrewrite=NXDOMAIN
 ||cname*adguard-vpn.online^$dnsrewrite=NXDOMAIN
 
+!Discord
+||dc-telemetry.net^$dnsrewrite=NXDOMAIN
+
 !TLD
 ||*.icu^$dnsrewrite=NXDOMAIN
