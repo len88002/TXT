@@ -5,7 +5,7 @@
 ||_dns-sd._udp*in-addr.arpa^$dnsrewrite=NXDOMAIN
 
 !DNS64
-||ipv4only.arpa^$dnsrewrite=NOERROR;A;192.0.0.170,dnsrewrite=NOERROR;A;192.0.0.171
+||ipv4only.arpa^$$dnsrewrite=NXDOMAIN
 
 !DNS-push
 ||_dns-push-tls._tcp*^$dnsrewrite=NXDOMAIN
