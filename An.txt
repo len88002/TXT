@@ -5,10 +5,10 @@
 ||_dns-sd._udp*in-addr.arpa^$dnsrewrite=NXDOMAIN
 
 !DNS64
-||ipv4only.arpa^$dnsrewrite=NXDOMAIN
+||ipv4only.arpa^$dnsrewrite=NOERROR;A;192.0.0.170,dnsrewrite=NOERROR;A;192.0.0.171
 
-!IoT
-||*.service.arpa^$dnsrewrite=NXDOMAIN
+!DNS-push
+||_dns-push-tls._tcp*^$dnsrewrite=NXDOMAIN
 
 !router
 ||*^$dnsrewrite=SERVFAIL,client=192.168.2.1|192.168.50.1,denyallow=dns.msftncsi.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org
