@@ -1,19 +1,25 @@
 ! Title: An Filter
 
-!Apple
-|local^$dnsrewrite=NXDOMAIN
-||_dns-sd._udp*in-addr.arpa^$dnsrewrite=NXDOMAIN
-
 !DNS64
 ||ipv4only.arpa^$dnsrewrite=NXDOMAIN
 
 !DNS-push
-||_dns-push-tls._tcp*^$dnsrewrite=NXDOMAIN
+|_dns-push-tls._tcp*^$dnsrewrite=NXDOMAIN
 
 !router
 ||*^$dnsrewrite=SERVFAIL,client=192.168.2.1|192.168.50.1,denyallow=dns.msftncsi.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org
-||www.google.com^$dnsrewrite=NXDOMAIN,client=192.168.50.192
-||www.baidu.com^$dnsrewrite=NXDOMAIN,client=192.168.50.192
+|www.google.com^$dnsrewrite=NXDOMAIN,client=192.168.50.192
+|www.baidu.com^$dnsrewrite=NXDOMAIN,client=192.168.50.192
+
+!Raspberry Pi
+|_http._tcp.archive.raspberrypi.com^$dnsrewrite=NXDOMAIN
+
+!Docker
+|_https._tcp.download.docker.com^$dnsrewrite=NXDOMAIN
+
+!Apple
+|local^$dnsrewrite=NXDOMAIN
+||_dns-sd._udp*in-addr.arpa^$dnsrewrite=NXDOMAIN
 
 !Adguard
 ||*dnscheck.adguard-dns.com^$dnsrewrite=NXDOMAIN
