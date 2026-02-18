@@ -6,10 +6,10 @@
 |www.baidu.com^$dnsrewrite=NXDOMAIN,client=192.168.50.192
 
 !IoT Devices
-||service.arpa^$dnsrewrite=NXDOMAIN
+||*.service.arpa^$dnsrewrite=NXDOMAIN
 
 !DNS64
-||ipv4only.arpa^$dnsrewrite=NXDOMAIN,dnstype=~AAAA
+||ipv4only.arpa^$dnsrewrite=NXDOMAIN,dnstype=~A|~AAAA
 
 !DNS-push
 |_dns-push-tls._tcp*^$dnsrewrite=NXDOMAIN
