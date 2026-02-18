@@ -32,8 +32,10 @@
 ||dc-telemetry.net^$dnsrewrite=NXDOMAIN
 ||_https.*.discord.media^$dnsrewrite=NXDOMAIN
 
-!TLD
+!PTR TLD
 |arpa^$dnsrewrite=NXDOMAIN
+
+!TLD
 ||*.icu^$dnsrewrite=NXDOMAIN
 
 !Unqualified Names
