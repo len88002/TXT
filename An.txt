@@ -30,6 +30,7 @@
 
 !Discord
 ||dc-telemetry.net^$dnsrewrite=NXDOMAIN
+||_https.*.discord.media^$dnsrewrite=NXDOMAIN
 
 !TLD
 ||*.icu^$dnsrewrite=NXDOMAIN
