@@ -22,7 +22,7 @@
 |*_dns-sd._udp*in-addr.arpa|$dnsrewrite=NXDOMAIN
 
 !Adguard
-|*dnscheck.adguard-dns.com|$dnsrewrite=NXDOMAIN
+|*-dnscheck.adguard-dns.com|$dnsrewrite=NXDOMAIN
 |*cname*adguard-vpn.online|$dnsrewrite=NXDOMAIN
 
 !Discord
@@ -34,3 +34,8 @@
 
 !Unqualified Names
 |https://app-measurement.com/sdk-exp|$dnsrewrite=NXDOMAIN
+
+!NXDOMAIN
+|checkcer.cloudlinks.cn|$dnsrewrite=NXDOMAIN
+|e-ltvp.inmobi.com|$dnsrewrite=NXDOMAIN
+|alog.umeng.co|$dnsrewrite=NXDOMAIN
