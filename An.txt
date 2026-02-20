@@ -7,6 +7,7 @@
 |*.*|$dnsrewrite=SERVFAIL,client=192.168.2.1|192.168.50.1,denyallow=dns.msftncsi.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org
 |www.google.com|$dnsrewrite=NXDOMAIN,client=192.168.50.192
 |www.baidu.com|$dnsrewrite=NXDOMAIN,client=192.168.50.192
+|router.asus.com|$dnsrewrite=NXDOMAIN
 
 !IoT Devices
 |*.service.arpa|$dnsrewrite=NXDOMAIN
@@ -36,13 +37,24 @@
 |cimg.178.com|$dnsrewrite=NXDOMAIN
 |img.db.178.com|$dnsrewrite=NXDOMAIN
 
+!Shopee
+|df.infra.test.shopee.sg|$dnsrewrite=NXDOMAIN
+|dem.exp.shopee.io|$dnsrewrite=NXDOMAIN
+
+!Camera
+|checkcer.cloudlinks.cn|$dnsrewrite=NXDOMAIN
+
 !TLD
 |*.icu|$dnsrewrite=NXDOMAIN
 
 !Unqualified Names
 |https://app-measurement.com/sdk-exp|$dnsrewrite=NXDOMAIN
 
-!NXDOMAIN
-|checkcer.cloudlinks.cn|$dnsrewrite=NXDOMAIN
+!NXDOMAIN-K
 |e-ltvp.inmobi.com|$dnsrewrite=NXDOMAIN
 |alog.umeng.co|$dnsrewrite=NXDOMAIN
+|thing.miniapp.com|$dnsrewrite=NXDOMAIN
+
+!NXDOMAIN-Altis
+|*.carsql.com|$dnsrewrite=NXDOMAIN
+|offline.aps.amap.com|$dnsrewrite=NXDOMAIN
