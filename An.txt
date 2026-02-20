@@ -48,7 +48,7 @@
 #|*.icu|$dnsrewrite=NXDOMAIN
 
 !Unqualified Names
-|https://app-measurement.com/sdk-exp|$dnsrewrite=NXDOMAIN
+|https://*|$dnsrewrite=NXDOMAIN
 
 !NXDOMAIN-K
 |e-ltvp.inmobi.com|$dnsrewrite=NXDOMAIN
