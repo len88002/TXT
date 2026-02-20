@@ -45,7 +45,7 @@
 |checkcer.cloudlinks.cn|$dnsrewrite=NXDOMAIN
 
 !TLD
-|*.icu|$dnsrewrite=NXDOMAIN
+#|*.icu|$dnsrewrite=NXDOMAIN
 
 !Unqualified Names
 |https://app-measurement.com/sdk-exp|$dnsrewrite=NXDOMAIN
