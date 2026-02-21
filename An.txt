@@ -41,6 +41,9 @@
 |df.infra.test.shopee.sg|$dnsrewrite=NXDOMAIN
 |dem.exp.shopee.io|$dnsrewrite=NXDOMAIN
 
+!Central Weather Administration
+|www.cwb.gov.tw|$dnsrewrite=NXDOMAIN
+
 !Camera
 |checkcer.cloudlinks.cn|$dnsrewrite=NXDOMAIN
 
