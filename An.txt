@@ -7,6 +7,7 @@
 |*.*|$dnsrewrite=SERVFAIL,client=192.168.2.1|192.168.50.1,denyallow=dns.msftncsi.com|routerahs.asus.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org
 |www.google.com|$dnsrewrite=NXDOMAIN,client=192.168.50.192
 |www.baidu.com|$dnsrewrite=NXDOMAIN,client=192.168.50.192
+|www.asusrouter.com|$dnsrewrite=NXDOMAIN
 |router.asus.com|$dnsrewrite=NXDOMAIN
 
 !IoT Devices
