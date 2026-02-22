@@ -5,7 +5,7 @@
 
 !router
 |*.*|$dnsrewrite=SERVFAIL,client=192.168.2.1|192.168.50.1,denyallow=dns.msftncsi.com|routerahs.asus.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org
-|*|$dnsrewrite=NXDOMAIN,client=192.168.50.192,denyallow=cloudlinks.cn|ovslegodl.sched.ovscdns.com|cloud-links.net
+|*|$dnsrewrite=NXDOMAIN,client=192.168.2.51|192.168.2.52|192.168.2.53|192.168.2.54|192.168.2.55|192.168.2.56|192.168.50.192|192.168.50.196,denyallow=cloudlinks.cn|ovslegodl.sched.ovscdns.com|cloud-links.net
 |www.asusrouter.com|$dnsrewrite=NXDOMAIN
 |router.asus.com|$dnsrewrite=NXDOMAIN
 
