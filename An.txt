@@ -4,7 +4,7 @@
 #||$dnsrewrite=NXDOMAIN
 
 !router
-|*.*|$dnsrewrite=SERVFAIL,client=192.168.2.1|192.168.50.1,denyallow=dns.msftncsi.com|routerahs.asus.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org
+|*.*|$dnsrewrite=SERVFAIL,client='Asus Router',denyallow=dns.msftncsi.com|routerahs.asus.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org
 |www.asusrouter.com|$dnsrewrite=NXDOMAIN
 |router.asus.com|$dnsrewrite=NXDOMAIN
 
