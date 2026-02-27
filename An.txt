@@ -2,62 +2,63 @@
 
 !Example
 #||$dnsrewrite=NXDOMAIN
+#||$dnsrewrite=SERVFAIL
 
 !router
-|*.*|$dnsrewrite=SERVFAIL,client='Asus Router',denyallow=dns.msftncsi.com|routerahs.asus.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org
-|www.asusrouter.com|$dnsrewrite=NXDOMAIN
-|router.asus.com|$dnsrewrite=NXDOMAIN
+|*.*|$client='Asus Router',denyallow=dns.msftncsi.com|routerahs.asus.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org
+|www.asusrouter.com|
+|router.asus.com|
 
 !IoT Devices
-|*.service.arpa|$dnsrewrite=NXDOMAIN
+|*.service.arpa|
 
 !DNS-push
-|_dns-push-tls._tcp*|$dnsrewrite=NXDOMAIN
+|_dns-push-tls._tcp*|
 
 !Raspberry Pi
-|_http._tcp.archive.raspberrypi.com|$dnsrewrite=NXDOMAIN
+|_http._tcp.archive.raspberrypi.com|
 
 !Docker
-|_https._tcp.download.docker.com|$dnsrewrite=NXDOMAIN
+|_https._tcp.download.docker.com|
 
 !Apple
 |local|$dnsrewrite=NXDOMAIN
-|*_dns-sd._udp*in-addr.arpa|$dnsrewrite=NXDOMAIN
+|*_dns-sd._udp*in-addr.arpa|
 
 !Adguard
-|*-dnscheck.adguard-dns.com|$dnsrewrite=NXDOMAIN
-|*cname*adguard-vpn.online|$dnsrewrite=NXDOMAIN
+|*-dnscheck.adguard-dns.com|
+|*cname*adguard-vpn.online|
 
 !Discord
-|*dc-telemetry.net|$dnsrewrite=NXDOMAIN
-|*_https*discord.media|$dnsrewrite=NXDOMAIN
+|*dc-telemetry.net|
+|*_https*discord.media|
 
 !NGA
-|cimg.178.com|$dnsrewrite=NXDOMAIN
-|img.db.178.com|$dnsrewrite=NXDOMAIN
+|cimg.178.com|
+|img.db.178.com|
 
 !Shopee
-|df.infra.test.shopee.sg|$dnsrewrite=NXDOMAIN
-|dem.exp.shopee.io|$dnsrewrite=NXDOMAIN
+|df.infra.test.shopee.sg|
+|dem.exp.shopee.io|
 
 !Central Weather Administration
-|www.cwb.gov.tw|$dnsrewrite=NXDOMAIN
+|www.cwb.gov.tw|
 
 !Camera
-|*|$dnsrewrite=NXDOMAIN,ctag=device_camera,denyallow=cloudlinks.cn|ovslegodl.sched.ovscdns.com|cloud-links.net
-|checkcer.cloudlinks.cn|$dnsrewrite=NXDOMAIN
+|*|$ctag=device_camera,denyallow=cloudlinks.cn|ovslegodl.sched.ovscdns.com|cloud-links.net
+|checkcer.cloudlinks.cn|
 
 !TLD
-#|*.icu|$dnsrewrite=NXDOMAIN
+#|*.icu|
 
 !Unqualified Names
-|https://*|$dnsrewrite=NXDOMAIN
+|https://*|
 
 !NXDOMAIN-K
-|e-ltvp.inmobi.com|$dnsrewrite=NXDOMAIN
-|alog.umeng.co|$dnsrewrite=NXDOMAIN
-|thing.miniapp.com|$dnsrewrite=NXDOMAIN
+|e-ltvp.inmobi.com|
+|alog.umeng.co|
+|thing.miniapp.com|
 
 !NXDOMAIN-Altis
-|*.carsql.com|$dnsrewrite=NXDOMAIN
-|offline.aps.amap.com|$dnsrewrite=NXDOMAIN
+|*.carsql.com|
+|offline.aps.amap.com|
