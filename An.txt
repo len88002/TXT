@@ -14,7 +14,7 @@
 |*.service.arpa|$dnsrewrite=NXDOMAIN
 
 !DNS-push
-|_dns-push-tls._tcp*|$dnsrewrite=NXDOMAIN
+#|_dns-push-tls._tcp*|$dnsrewrite=NXDOMAIN
 
 !Raspberry Pi
 |_http._tcp.archive.raspberrypi.com|$dnsrewrite=NXDOMAIN
@@ -23,8 +23,8 @@
 |_https._tcp.download.docker.com|$dnsrewrite=NXDOMAIN
 
 !Apple
-|local|$dnsrewrite=NXDOMAIN
-|*_dns-sd._udp*in-addr.arpa|$dnsrewrite=NXDOMAIN
+#|local|$dnsrewrite=NXDOMAIN
+#|*_dns-sd._udp*in-addr.arpa|$dnsrewrite=NXDOMAIN
 
 !Adguard
 |*-dnscheck.adguard-dns.com|$dnsrewrite=NXDOMAIN
