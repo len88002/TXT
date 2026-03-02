@@ -22,7 +22,6 @@
 !Docker
 |_https._tcp.download.docker.com|$dnsrewrite=NXDOMAIN
 
-
 !Apple
 |local|$dnsrewrite=NXDOMAIN
 |*_dns-sd._udp*in-addr.arpa|$dnsrewrite=NXDOMAIN
