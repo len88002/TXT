@@ -6,7 +6,7 @@
 #||$dnsrewrite=NOERROR;;
 
 !router
-|*.*|$dnsrewrite=NOERROR;;,client='Asus Router',denyallow=dns.msftncsi.com|routerahs.asus.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org
+|*.*|$client='Asus Router',denyallow=dns.msftncsi.com|routerahs.asus.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org
 |www.asusrouter.com|
 |router.asus.com|
 
