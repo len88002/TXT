@@ -1,0 +1,7 @@
+! Title: An-Rules Filter
+
+!local
+@@||*.local^$important
+
+!connect.raspberrypi.com
+@@||connect.raspberrypi.com^$important,document
