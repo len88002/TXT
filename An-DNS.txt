@@ -1,4 +1,4 @@
-! Title: An Filter
+! Title: An-DNS Filter
 
 !Example
 #||$dnsrewrite=NXDOMAIN
