@@ -32,7 +32,6 @@
 
 !Discord
 |*dc-telemetry.net|
-|*_https*discord.media|
 
 !NGA
 |cimg.178.com|
