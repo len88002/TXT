@@ -45,6 +45,9 @@
 !Central Weather Administration
 |www.cwb.gov.tw|
 
+!E-H Galleries
+|*.hath.network|$dnstype=~A|~AAAA
+
 !Camera
 |*|$ctag=device_camera,denyallow=cloudlinks.cn|ovslegodl.sched.ovscdns.com|cloud-links.net
 |checkcer.cloudlinks.cn|
