@@ -13,18 +13,11 @@
 !IoT Devices
 |*.service.arpa|
 
-!DNS-push
-|_dns-push-tls._tcp*|
-
 !Raspberry Pi
 |_http._tcp.archive.raspberrypi.com|
 
 !Docker
 |_https._tcp.download.docker.com|
-
-!Apple
-|local|$dnsrewrite=NXDOMAIN
-|*_dns-sd._udp*in-addr.arpa|
 
 !Adguard
 |*-dnscheck.adguard-dns.com|
