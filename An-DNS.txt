@@ -28,7 +28,7 @@
 |*_https*discord.media|
 
 !PlayStation
-|*-*-*-*-pushcl.np.communication.playstation.net|$dnstype=AAAA|HTTPS
+|*-*-*-*-pushcl.np.communication.playstation.net|$dnstype=AAAA|HTTPS,dnsrewrite=NOERROR;;
 
 !NGA
 |cimg.178.com|
@@ -42,7 +42,7 @@
 |www.cwb.gov.tw|
 
 !E-H Galleries
-|*.hath.network|$dnstype=AAAA|HTTPS
+|*.hath.network|$dnstype=AAAA|HTTPS,dnsrewrite=NOERROR;;
 
 !Camera
 |*|$ctag=device_camera,denyallow=cloudlinks.cn|ovslegodl.sched.ovscdns.com|cloud-links.net,dnsrewrite=NOERROR;;
