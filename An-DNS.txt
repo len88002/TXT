@@ -39,7 +39,7 @@
 |www.cwb.gov.tw|
 
 !E-H Galleries
-|*.hath.network|$dnstype=~A|~AAAA
+|*.hath.network|$dnstype=~A
 
 !Camera
 |*|$ctag=device_camera,denyallow=cloudlinks.cn|ovslegodl.sched.ovscdns.com|cloud-links.net
