@@ -27,6 +27,9 @@
 |*dc-telemetry.net|
 |*_https*discord.media|
 
+!PlayStation
+|*-*-*-*-pushcl.np.communication.playstation.net|$dnstype=~A
+
 !NGA
 |cimg.178.com|
 |img.db.178.com|
@@ -56,3 +59,4 @@
 !NXDOMAIN-Altis
 |*.carsql.com|
 |offline.aps.amap.com|
+
