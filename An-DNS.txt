@@ -6,9 +6,12 @@
 #||$dnsrewrite=NOERROR;;
 
 !router
-|*.*|$client='Asus Router',denyallow=dns.msftncsi.com|routerahs.asus.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org
+|*.*|$client='Asus Router',denyallow=dns.msftncsi.com|routerahs.asus.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org,dnsrewrite=NOERROR;;
 |www.asusrouter.com|
 |router.asus.com|
+
+!Apple
+|*|$ctag=os_ios,dnstype=HTTPS,dnsrewrite=NOERROR;;
 
 !IoT Devices
 |*.service.arpa|
@@ -45,7 +48,7 @@
 |*.hath.network|$dnstype=AAAA|HTTPS
 
 !Camera
-|*|$ctag=device_camera,denyallow=cloudlinks.cn|ovslegodl.sched.ovscdns.com|cloud-links.net
+|*|$ctag=device_camera,denyallow=cloudlinks.cn|ovslegodl.sched.ovscdns.com|cloud-links.net,dnsrewrite=NOERROR;;
 |checkcer.cloudlinks.cn|
 
 !TLD
