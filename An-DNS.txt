@@ -10,9 +10,6 @@
 |www.asusrouter.com|
 |router.asus.com|
 
-!Apple
-|*|$ctag=os_ios,dnstype=HTTPS,dnsrewrite=NOERROR;;
-
 !IoT Devices
 |*.service.arpa|
 
