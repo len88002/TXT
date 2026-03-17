@@ -10,14 +10,14 @@
 |www.asusrouter.com|
 |router.asus.com|
 
+!https
+||_https.*|
+
 !IoT Devices
 |*.service.arpa|
 
 !Raspberry Pi
 |_http._tcp.archive.raspberrypi.com|
-
-!Docker
-|_https._tcp.download.docker.com|
 
 !Adguard
 |*-dnscheck.adguard-dns.com|
@@ -28,7 +28,6 @@
 
 !Discord
 |*dc-telemetry.net|
-|*_https*discord.media|
 
 !PlayStation
 |*-*-*-*-pushcl.np.communication.playstation.net|$dnstype=AAAA|HTTPS,dnsrewrite=NOERROR
