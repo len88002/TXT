@@ -23,6 +23,9 @@
 |*-dnscheck.adguard-dns.com|
 |*cname*adguard-vpn.online|
 
+!CloudFlare DNS
+|*.help.every1dns.net|
+
 !Discord
 |*dc-telemetry.net|
 |*_https*discord.media|
