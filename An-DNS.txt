@@ -41,6 +41,10 @@
 !Central Weather Administration
 |www.cwb.gov.tw|
 
+!previewImage.js
+|static.luyanghui.com|
+|idv045t.qiniudns.com|
+
 !E-H Galleries
 |*.hath.network|$dnstype=AAAA|HTTPS,dnsrewrite=NOERROR;;
 
