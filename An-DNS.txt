@@ -10,9 +10,6 @@
 |www.asusrouter.com|
 |router.asus.com|
 
-!https
-||_https.*|
-
 !IoT Devices
 |*.service.arpa|
 
