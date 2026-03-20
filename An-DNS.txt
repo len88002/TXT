@@ -26,9 +26,6 @@
 !Discord
 |*dc-telemetry.net|
 
-!PlayStation
-|*-*-*-*-pushcl.np.communication.playstation.net|$dnstype=HTTPS,dnsrewrite=NOERROR
-
 !NGA
 |cimg.178.com|
 |img.db.178.com|
