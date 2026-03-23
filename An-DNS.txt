@@ -4,6 +4,7 @@
 #||$dnsrewrite=NXDOMAIN
 #||$dnsrewrite=SERVFAIL
 #||$dnsrewrite=NOERROR
+#||$dnstype=HTTPS
 
 !router
 |*.*|$client='Asus Router',denyallow=dns.msftncsi.com|routerahs.asus.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org,dnsrewrite=NOERROR
@@ -40,9 +41,6 @@
 !previewImage.js
 |static.luyanghui.com|
 |idv045t.qiniudns.com|
-
-!E-H Galleries
-|*.hath.network|$dnstype=HTTPS,dnsrewrite=NOERROR
 
 !Camera
 |*|$ctag=device_camera,denyallow=cloudlinks.cn|ovslegodl.sched.ovscdns.com|cloud-links.net,dnsrewrite=NOERROR
