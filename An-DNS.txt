@@ -27,6 +27,9 @@
 !Discord
 |*dc-telemetry.net|
 
+!Microsoft
+|pti.store.microsoft.com|
+
 !NGA
 |cimg.178.com|
 |img.db.178.com|
