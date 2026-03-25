@@ -52,6 +52,9 @@
 !TLD
 #|*.icu|
 
+!NXDOMAIN
+|itori.animenfo.com|
+
 !NXDOMAIN-K
 |e-ltvp.inmobi.com|
 |alog.umeng.co|
