@@ -27,6 +27,9 @@
 !Discord
 |*dc-telemetry.net|
 
+!Line
+@@|uts-front.line-apps.com|
+
 !Microsoft
 |pti.store.microsoft.com|
 
