@@ -28,7 +28,7 @@
 |*dc-telemetry.net|
 
 !Line
-#@@|uts-front.line-apps.com|
+#@@|app-analytics-services.com|
 
 !Microsoft
 |pti.store.microsoft.com|
