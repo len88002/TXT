@@ -57,6 +57,7 @@
 
 !NXDOMAIN
 |itori.animenfo.com|
+|this-url-does-not-exist-*.invalid|
 
 !NXDOMAIN-K
 |e-ltvp.inmobi.com|
