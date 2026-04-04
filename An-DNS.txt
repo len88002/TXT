@@ -28,7 +28,7 @@
 |*dc-telemetry.net|
 
 !Line
-@@|app-analytics-services.com|$ctag=os_ios
+@@|app-analytics-services.com|$ctag=device_phone|device_tablet
 
 !Microsoft
 |pti.store.microsoft.com|
