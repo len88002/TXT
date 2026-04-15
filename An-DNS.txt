@@ -11,6 +11,9 @@
 |www.asusrouter.com|
 |router.asus.com|
 
+!DNS SD
+|*._dns-sd._udp*in-addr.arpa|
+
 !IoT Devices
 |*.service.arpa|
 
