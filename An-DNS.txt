@@ -27,6 +27,9 @@
 !CloudFlare DNS
 |*.help.every1dns.net|
 
+!PlayStation
+|ps5cel.np.dl.playstation.net|
+
 !Discord
 |*dc-telemetry.net|
 
