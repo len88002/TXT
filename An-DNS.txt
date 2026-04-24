@@ -74,5 +74,3 @@
 !NXDOMAIN-Altis
 |*.carsql.com|
 |offline.aps.amap.com|
-
-skbank.com.tw
