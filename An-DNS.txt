@@ -67,7 +67,12 @@
 |alog.umeng.co|
 |thing.miniapp.com|
 
+!NXDOMAIN-PH
+|*.skbank.com.tw|
+|*.skfh.com.tw|
+
 !NXDOMAIN-Altis
 |*.carsql.com|
 |offline.aps.amap.com|
 
+skbank.com.tw
