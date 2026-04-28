@@ -71,7 +71,6 @@
 |thing.miniapp.com|
 
 !NXDOMAIN-PH
-|*.skbank.com.tw|
 |*.skfh.com.tw|
 
 !NXDOMAIN-Altis
