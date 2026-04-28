@@ -71,7 +71,8 @@
 |thing.miniapp.com|
 
 !NXDOMAIN-PH
-|*.skfh.com.tw|
+|estatement.skbank.com.tw|
+|cxa.skfh.com.tw|
 
 !NXDOMAIN-Altis
 |*.carsql.com|
