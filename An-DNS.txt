@@ -17,6 +17,9 @@
 !IoT Devices
 |*.service.arpa|
 
+!Apple
+|apps.itunes-nocookie.com|
+
 !Raspberry Pi
 |_http._tcp.archive.raspberrypi.com|
 
@@ -71,7 +74,6 @@
 |alog.umeng.co|
 |thing.miniapp.com|
 |m-adnet.hiaiabc.com|
-|apps.itunes-nocookie.com|
 
 !NXDOMAIN-PH
 |estatement.skbank.com.tw|
