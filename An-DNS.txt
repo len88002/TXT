@@ -66,13 +66,17 @@
 |this-url-does-not-exist-*.invalid|
 
 !NXDOMAIN-K
+|ellisaicore.cbre.com|
 |e-ltvp.inmobi.com|
 |alog.umeng.co|
 |thing.miniapp.com|
+|m-adnet.hiaiabc.com|
+|apps.itunes-nocookie.com|
 
 !NXDOMAIN-PH
 |estatement.skbank.com.tw|
 |cxa.skfh.com.tw|
+|cache.addthiscdn.com|
 
 !NXDOMAIN-Altis
 |*.carsql.com|
