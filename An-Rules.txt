@@ -5,3 +5,6 @@
 
 !connect.raspberrypi.com
 @@||connect.raspberrypi.com^$important,document
+
+!look.thisiscm.com
+look.thisiscm.com###chapterWarp > div.chapter-content.px-3:last-child > div.content.py-5:last-child > div:last-child > p
