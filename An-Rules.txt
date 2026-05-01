@@ -8,3 +8,5 @@
 
 !look.thisiscm.com
 look.thisiscm.com###chapterWarp > div.chapter-content.px-3:last-child > div.content.py-5:last-child > div:last-child > p
+!wnacg.com
+wnacg.com##div.classBox.autoHeight:last-child > div.imgBox:nth-child(3) > div:first-child > a > img
