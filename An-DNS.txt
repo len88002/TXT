@@ -25,9 +25,6 @@
 !CloudFlare DNS
 |*.help.every1dns.net|
 
-!PlayStation
-|ps5cel.np.dl.playstation.net|
-
 !Discord
 |*dc-telemetry.net|
 
@@ -36,7 +33,6 @@
 
 !Camera
 |*|$ctag=device_camera,denyallow=cloudlinks.cn|ovslegodl.sched.ovscdns.com|cloud-links.net,dnsrewrite=NOERROR
-|checkcer.cloudlinks.cn|
 
 !TLD
 #|*.icu|
