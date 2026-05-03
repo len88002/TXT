@@ -8,17 +8,12 @@
 
 !router
 |*.*|$client='Asus Router',denyallow=dns.msftncsi.com|routerahs.asus.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org,dnsrewrite=NOERROR
-#|www.asusrouter.com|
-#|router.asus.com|
 
 !DNS SD
 |*._dns-sd._udp*in-addr.arpa|
 
 !IoT Devices
 |*.service.arpa|
-
-!Apple
-#|apps.itunes-nocookie.com|
 
 !Raspberry Pi
 |_http._tcp.archive.raspberrypi.com|
@@ -31,7 +26,7 @@
 |*.help.every1dns.net|
 
 !PlayStation
-#|ps5cel.np.dl.playstation.net|
+|ps5cel.np.dl.playstation.net|
 
 !Discord
 |*dc-telemetry.net|
@@ -39,47 +34,12 @@
 !Line
 @@|app-analytics-services.com|$ctag=device_phone|device_tablet
 
-!Microsoft
-#|pti.store.microsoft.com|
-
-!NGA
-#|cimg.178.com|
-#|img.db.178.com|
-
-!Shopee
-#|df.infra.test.shopee.sg|
-#|dem.exp.shopee.io|
-
-!Central Weather Administration
-#|www.cwb.gov.tw|
-
-!previewImage.js
-#|static.luyanghui.com|
-#|idv045t.qiniudns.com|
-
 !Camera
 |*|$ctag=device_camera,denyallow=cloudlinks.cn|ovslegodl.sched.ovscdns.com|cloud-links.net,dnsrewrite=NOERROR
-#|checkcer.cloudlinks.cn|
+|checkcer.cloudlinks.cn|
 
 !TLD
 #|*.icu|
 
 !NXDOMAIN
-#|itori.animenfo.com|
 |this-url-does-not-exist-*.invalid|
-
-!NXDOMAIN-K
-#|ellisaicore.cbre.com|
-#|e-ltvp.inmobi.com|
-#|alog.umeng.co|
-#|thing.miniapp.com|
-#|m-adnet.hiaiabc.com|
-
-!NXDOMAIN-PH
-#|estatement.skbank.com.tw|
-#|cxa.skfh.com.tw|
-#|cache.addthiscdn.com|
-
-!NXDOMAIN-Altis
-#|*.carsql.com|
-#|offline.aps.amap.com|
