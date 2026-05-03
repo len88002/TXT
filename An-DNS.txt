@@ -9,6 +9,9 @@
 !router
 |*.*|$client='Asus Router',denyallow=dns.msftncsi.com|routerahs.asus.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org,dnsrewrite=NOERROR
 
+!SVCB
+|_dns.resolver.arpa|
+
 !DNS SD
 |*._dns-sd._udp*in-addr.arpa|
 
