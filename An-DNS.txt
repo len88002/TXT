@@ -32,9 +32,6 @@
 |cimg.178.com|
 |img.db.178.com|
 
-!NXDOMAIN
-|this-url-does-not-exist-*.invalid|
-
 !PlayStation
 |ps5cel.np.dl.playstation.net|
 
@@ -48,4 +45,4 @@
 |_dns.resolver.arpa|
 
 !TLD
-#|*.icu|
+|*.invalid|
