@@ -13,7 +13,7 @@
 |_dns.resolver.arpa|
 
 !DNS SD
-|*._dns-sd._udp*in-addr.arpa|
+#|*._dns-sd._udp*in-addr.arpa|
 
 !IoT Devices
 |*.service.arpa|
