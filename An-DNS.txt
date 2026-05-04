@@ -31,6 +31,9 @@
 !Discord
 |*dc-telemetry.net|
 
+!PlayStation
+|ps5cel.np.dl.playstation.net|
+
 !Line
 @@|app-analytics-services.com|$ctag=device_phone|device_tablet
 
