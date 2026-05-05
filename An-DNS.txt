@@ -12,6 +12,7 @@
 
 !Camera
 |*|$ctag=device_camera,denyallow=cloudlinks.cn|ovslegodl.sched.ovscdns.com|cloud-links.net,dnsrewrite=NOERROR
+|checkcer.cloudlinks.cn|
 
 !CloudFlare DNS
 |*.help.every1dns.net|
