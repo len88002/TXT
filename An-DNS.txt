@@ -20,14 +20,11 @@
 !Discord
 |*dc-telemetry.net|
 
-!DNS SD
-|*._dns-sd._udp*in-addr.arpa|
-
 !IoT Devices
 |*.service.arpa|
 
 !Line
-@@|app-analytics-services.com|$ctag=device_phone|device_tablet
+#@@|app-analytics-services.com|$ctag=device_phone|device_tablet
 
 !NGA
 |cimg.178.com|
@@ -43,9 +40,6 @@
 |*.*|$client='Asus Router',denyallow=dns.msftncsi.com|routerahs.asus.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org,dnsrewrite=NOERROR
 |www.asusrouter.com|
 |router.asus.com|
-
-!SVCB
-|_dns.resolver.arpa|
 
 !TLD
 |*.invalid|
