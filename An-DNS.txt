@@ -24,7 +24,7 @@
 |*.service.arpa|
 
 !Line
-#@@|app-analytics-services.com|$ctag=device_phone|device_tablet
+@@|uts-front.line-apps.com|
 
 !NGA
 |cimg.178.com|
