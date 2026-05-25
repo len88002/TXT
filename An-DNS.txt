@@ -6,6 +6,10 @@
 #||$dnsrewrite=NOERROR
 #||$dnstype=HTTPS
 
+!Active Directory
+|_ldap._tcp.*|
+|_gc._tcp.*|
+
 !Adguard
 |*-dnscheck.adguard-dns.com|
 |*cname*adguard-vpn.online|
