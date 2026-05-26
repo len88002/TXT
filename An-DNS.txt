@@ -11,39 +11,13 @@
 |_gc._tcp.*|
 
 !Adguard
-|*-dnscheck.adguard-dns.com|
 |*cname*adguard-vpn.online|
 
 !Camera
 |*|$ctag=device_camera,denyallow=cloudlinks.cn|ovslegodl.sched.ovscdns.com|cloud-links.net,dnsrewrite=NOERROR
-|checkcer.cloudlinks.cn|
-
-!CloudFlare DNS
-|*.help.every1dns.net|
-
-!Discord
-|*dc-telemetry.net|
-
-!IoT Devices
-|*.service.arpa|
 
 !Line
 @@|uts-front.line-apps.com|
 
-!NGA
-|cimg.178.com|
-|img.db.178.com|
-
-!PlayStation
-|ps5cel.np.dl.playstation.net|
-
-!Raspberry Pi
-|_http._tcp.archive.raspberrypi.com|
-
 !router
 |*.*|$client='Asus Router',denyallow=dns.msftncsi.com|routerahs.asus.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org,dnsrewrite=NOERROR
-|www.asusrouter.com|
-|router.asus.com|
-
-!TLD
-|*.invalid|
