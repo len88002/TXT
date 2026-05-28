@@ -30,3 +30,6 @@ weather.carsql.com
 static.zhimg.com
 static.luyanghui.com
 idv045t.qiniudns.com
+m-adnet.hiaiabc.com
+estatement.skbank.com.tw
+cxa.skfh.com.tw
