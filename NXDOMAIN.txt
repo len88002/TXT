@@ -8,8 +8,6 @@
 -.assets
 
 _http._tcp.archive.raspberrypi.com
-_ldap._tcp.an-pi
-_gc._tcp.an-pi
 checkcer.cloudlinks.cn
 cimg.178.com
 img.db.178.com
