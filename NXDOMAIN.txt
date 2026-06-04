@@ -31,3 +31,5 @@ idv045t.qiniudns.com
 m-adnet.hiaiabc.com
 estatement.skbank.com.tw
 cxa.skfh.com.tw
+iccert.nhi.gov.tw
+uni-one.thurc.org.taipeinull
