@@ -22,6 +22,8 @@ itori.animenfo.com
 router.asus.com
 www.asusrouter.com
 weather.carsql.com
+assets2.coupang.com
+private.coupang.com
 m-adnet.hiaiabc.com
 e-ltvp.inmobi.com
 apps.itunes-nocookie.com
