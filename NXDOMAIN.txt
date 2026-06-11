@@ -9,6 +9,9 @@
 -.images
 -.assets
 
+#arpa
+ipv4only.arpa
+
 #cn
 checkcer.cloudlinks.cn
 
