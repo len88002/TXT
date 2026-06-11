@@ -68,4 +68,3 @@ df.infra.test.shopee.sg
 ##BlOCK
 ipv4only.arpa
 dns.msftncsi.com
-relay-ipc.tplinkcloud.com.cn
