@@ -22,6 +22,7 @@ alog.umeng.co
 cimg.178.com
 img.db.178.com
 itori.animenfo.com
+sf-saas.cdn-apple.com
 router.asus.com
 www.asusrouter.com
 weather.carsql.com
@@ -31,6 +32,7 @@ m-adnet.hiaiabc.com
 e-ltvp.inmobi.com
 apps.itunes-nocookie.com
 static.luyanghui.com
+images.microbadger.com
 pti.store.microsoft.com
 thing.miniapp.com
 idv045t.qiniudns.com
