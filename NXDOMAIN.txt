@@ -37,6 +37,7 @@ pti.store.microsoft.com
 thing.miniapp.com
 idv045t.qiniudns.com
 _http._tcp.archive.raspberrypi.com
+tap.walmart.com
 static.zhimg.com
 
 #io
@@ -47,6 +48,9 @@ www.8d8d.me
 
 #net
 ps5cel.np.dl.playstation.net
+
+#null
+odc.null
 
 #taipeinull
 uni-one.thurc.org.taipeinull
