@@ -30,6 +30,7 @@ private.coupang.com
 m-adnet.hiaiabc.com
 e-ltvp.inmobi.com
 apps.itunes-nocookie.com
+strapi.kchlu.com
 static.luyanghui.com
 images.microbadger.com
 pti.store.microsoft.com
