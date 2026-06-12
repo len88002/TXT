@@ -1,5 +1,3 @@
-##NXDOMAIN
-
 #*
 *.service.arpa
 *-dnscheck.adguard-dns.com
@@ -64,8 +62,3 @@ iccert.nhi.gov.tw
 
 #sg
 df.infra.test.shopee.sg
-
-
-##BlOCK
-ipv4only.arpa
-dns.msftncsi.com
