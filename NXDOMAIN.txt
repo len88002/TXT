@@ -38,6 +38,9 @@ _http._tcp.archive.raspberrypi.com
 tap.walmart.com
 static.zhimg.com
 
+#eu
+apps.darken.eu
+
 #io
 dem.exp.shopee.io
 
