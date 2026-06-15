@@ -60,7 +60,7 @@ uni-one.thurc.org.taipeinull
 www.sina.com.tw
 estatement.skbank.com.tw
 cxa.skfh.com.tw
-www.cwb.tw
+www.cwb.gov.tw
 iccert.nhi.gov.tw
 
 #sg
