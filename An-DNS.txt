@@ -16,4 +16,4 @@
 @@|uts-front.line-apps.com|
 
 !router
-|*.*|$client='Asus Router',denyallow=dns.msftncsi.com|routerahs.asus.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org,dnsrewrite=NOERROR
+|*|$client='Asus Router',denyallow=dns.msftncsi.com|routerahs.asus.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org,dnsrewrite=NOERROR
