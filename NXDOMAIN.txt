@@ -5,10 +5,6 @@
 *dc-telemetry.net
 *.help.every1dns.net
 
-#-
--.images
--.assets
-
 #cn
 checkcer.cloudlinks.cn
 
