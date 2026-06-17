@@ -12,6 +12,10 @@
 !Camera
 |*|$ctag=device_camera,denyallow=cloudlinks.cn|ovslegodl.sched.ovscdns.com|cloud-links.net,dnsrewrite=NOERROR
 
+!DNS-SD
+||local|
+||_dns-sd._udp.*.in-addr.arpa|
+
 !Line
 @@|uts-front.line-apps.com|
 
