@@ -13,7 +13,7 @@
 |*|$ctag=device_camera,denyallow=cloudlinks.cn|ovslegodl.sched.ovscdns.com|cloud-links.net,dnsrewrite=NOERROR
 
 !DNS-SD
-||local|
+|_dns.resolver.arpa|
 ||_dns-sd._udp.*.in-addr.arpa|
 
 !Line
