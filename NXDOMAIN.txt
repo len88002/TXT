@@ -15,12 +15,13 @@ alog.umeng.co
 cimg.178.com
 img.db.178.com
 itori.animenfo.com
-sf-saas.cdn-apple.com
 router.asus.com
 www.asusrouter.com
 weather.carsql.com
+sf-saas.cdn-apple.com
 assets2.coupang.com
 private.coupang.com
+mobile-webview.gmail.com
 m-adnet.hiaiabc.com
 e-ltvp.inmobi.com
 apps.itunes-nocookie.com
@@ -48,6 +49,9 @@ ps5cel.np.dl.playstation.net
 
 #null
 odc.null
+
+#org
+ceffpgmgaoapphfijfinjppigbfibnnp.chromiumapp.org
 
 #taipeinull
 uni-one.thurc.org.taipeinull
