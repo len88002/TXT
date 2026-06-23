@@ -7,6 +7,7 @@
 
 #cn
 checkcer.cloudlinks.cn
+scs.openspeech.cn
 
 #co
 alog.umeng.co
@@ -14,6 +15,7 @@ alog.umeng.co
 #com
 cimg.178.com
 img.db.178.com
+offline.aps.amap.com
 itori.animenfo.com
 router.asus.com
 www.asusrouter.com
