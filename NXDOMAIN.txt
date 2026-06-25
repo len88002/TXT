@@ -4,6 +4,7 @@
 *.invalid
 *dc-telemetry.net
 *.help.every1dns.net
+*.dnscheck.tools
 
 #cn
 checkcer.cloudlinks.cn
@@ -32,6 +33,7 @@ static.luyanghui.com
 images.microbadger.com
 pti.store.microsoft.com
 thing.miniapp.com
+null-addr.com
 idv045t.qiniudns.com
 _http._tcp.archive.raspberrypi.com
 tap.walmart.com
@@ -47,6 +49,7 @@ dem.exp.shopee.io
 www.8d8d.me
 
 #net
+null-addr.net
 ps5cel.np.dl.playstation.net
 
 #null
@@ -54,6 +57,7 @@ odc.null
 
 #org
 ceffpgmgaoapphfijfinjppigbfibnnp.chromiumapp.org
+null-addr.org
 
 #taipeinull
 uni-one.thurc.org.taipeinull
