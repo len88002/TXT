@@ -1,0 +1,18 @@
+#Discord
+*.discord.media
+
+#E-H Galleries
+*.hath.network
+
+#FaceBook
+*.xx.fbcdn.net
+
+#PlayStation
+*-pushcl.np.communication.playstation.net
+
+#Twitch
+*.j.cloudfront.hls.ttvnw.net
+*.ext-twitch.tv
+
+#YouTube
+*.googlevideo.com
