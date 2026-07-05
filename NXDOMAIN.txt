@@ -69,5 +69,8 @@ cxa.skfh.com.tw
 www.cwb.gov.tw
 iccert.nhi.gov.tw
 
+#rest
+q96k3hvnl.pi8nrmi7tpcbjlg3rtehy.rest
+
 #sg
 df.infra.test.shopee.sg
