@@ -6,6 +6,11 @@
 *.help.every1dns.net
 *.dnscheck.tools
 
+#arpa
+1.0.17.172.in-addr.arpa
+4.b.d.f.ip6.arpa
+0.8.e.f.ip6.arpa
+
 #cn
 checkcer.cloudlinks.cn
 scs.openspeech.cn
