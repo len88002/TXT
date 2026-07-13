@@ -5,6 +5,7 @@
 *dc-telemetry.net
 *.help.every1dns.net
 *.dnscheck.tools
+*.rest
 
 
 #cn
@@ -69,9 +70,6 @@ estatement.skbank.com.tw
 cxa.skfh.com.tw
 www.cwb.gov.tw
 iccert.nhi.gov.tw
-
-#rest
-q96k3hvnl.pi8nrmi7tpcbjlg3rtehy.rest
 
 #sg
 df.infra.test.shopee.sg
