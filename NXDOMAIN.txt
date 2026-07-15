@@ -48,9 +48,6 @@ apps.darken.eu
 #io
 dem.exp.shopee.io
 
-#me
-www.8d8d.me
-
 #net
 null-addr.net
 ps5cel.np.dl.playstation.net
@@ -66,7 +63,6 @@ null-addr.org
 uni-one.thurc.org.taipeinull
 
 #tw
-www.sina.com.tw
 estatement.skbank.com.tw
 cxa.skfh.com.tw
 cwb.gov.tw
