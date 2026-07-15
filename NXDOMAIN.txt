@@ -28,6 +28,7 @@ assets2.coupang.com
 private.coupang.com
 mobile-webview.gmail.com
 m-adnet.hiaiabc.com
+s0.hdslb.com
 e-ltvp.inmobi.com
 apps.itunes-nocookie.com
 strapi.kchlu.com
@@ -68,7 +69,7 @@ uni-one.thurc.org.taipeinull
 www.sina.com.tw
 estatement.skbank.com.tw
 cxa.skfh.com.tw
-www.cwb.gov.tw
+cwb.gov.tw
 iccert.nhi.gov.tw
 
 #sg
