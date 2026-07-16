@@ -40,6 +40,7 @@ thing.miniapp.com
 null-addr.com
 idv045t.qiniudns.com
 _http._tcp.archive.raspberrypi.com
+gameconsolehelper.rogsvc.com
 tap.walmart.com
 static.zhimg.com
 
