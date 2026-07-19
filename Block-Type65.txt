@@ -10,6 +10,9 @@
 #PlayStation
 *-pushcl.np.communication.playstation.net
 
+#TaipeiFubon
+*.taipeifubon.com.tw
+
 #Twitch
 *.j.cloudfront.hls.ttvnw.net
 *.ext-twitch.tv
