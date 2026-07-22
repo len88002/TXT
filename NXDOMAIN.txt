@@ -40,6 +40,7 @@ thing.miniapp.com
 null-addr.com
 staging.to-do.officeppe.com
 idv045t.qiniudns.com
+cdn.raptive.com
 _http._tcp.archive.raspberrypi.com
 gameconsolehelper.rogsvc.com
 tap.walmart.com
