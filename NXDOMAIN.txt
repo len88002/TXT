@@ -36,6 +36,7 @@ static.luyanghui.com
 images.microbadger.com
 inputsuggestions.msdxcdn.microsoft.com
 pti.store.microsoft.com
+staging.to-do.microsoft.com
 thing.miniapp.com
 null-addr.com
 staging.to-do.officeppe.com
