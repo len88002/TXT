@@ -45,6 +45,7 @@ cdn.raptive.com
 _http._tcp.archive.raspberrypi.com
 gameconsolehelper.rogsvc.com
 tap.walmart.com
+www&google.com
 static.zhimg.com
 
 #eu
