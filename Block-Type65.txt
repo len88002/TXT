@@ -1,3 +1,6 @@
+#Discord
+*.discord.media
+
 #E-H Galleries
 *.hath.network
 
