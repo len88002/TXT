@@ -8,7 +8,8 @@
 *.xx.fbcdn.net
 
 #PlayStation
-*-pushcl.np.communication.playstation.net
+playstation.com
+playstation.net
 
 #TaipeiFubon
 *.taipeifubon.com.tw
