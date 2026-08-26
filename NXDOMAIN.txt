@@ -30,6 +30,7 @@ s0.hdslb.com
 e-ltvp.inmobi.com
 apps.itunes-nocookie.com
 strapi.kchlu.com
+ukuma.liontravel.com
 static.luyanghui.com
 images.microbadger.com
 inputsuggestions.msdxcdn.microsoft.com
