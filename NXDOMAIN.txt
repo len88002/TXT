@@ -19,8 +19,6 @@ cimg.178.com
 db.178.com
 offline.aps.amap.com
 itori.animenfo.com
-router.asus.com
-www.asusrouter.com
 sf-saas.cdn-apple.com
 assets2.coupang.com
 private.coupang.com
