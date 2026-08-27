@@ -1,3 +1,7 @@
+#Asus Router
+asusrouter.com
+router.asus.com
+
 #E-H Galleries
 *.hath.network
 
