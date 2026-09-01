@@ -55,6 +55,7 @@ dem.exp.shopee.io
 
 #net
 null-addr.net
+none-pushcl.np.communication.playstation.net
 ps5cel.np.dl.playstation.net
 
 #null
