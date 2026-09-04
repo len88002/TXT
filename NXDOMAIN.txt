@@ -1,5 +1,4 @@
 #unqualified domain
-p3-reading-sign
 
 #*
 *.service.arpa
