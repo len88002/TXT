@@ -5,6 +5,7 @@ p3-reading-sign
 *.service.arpa
 *.carsql.com
 *.invalid
+*.invalid.lan
 *dc-telemetry.net
 *dc-telemetry.net.lan
 *.dnscheck.tools
@@ -56,6 +57,9 @@ apps.darken.eu
 
 #io
 dem.exp.shopee.io
+
+#lan
+tcp.lan
 
 #net
 null-addr.net
