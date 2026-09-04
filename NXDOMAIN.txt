@@ -5,7 +5,7 @@ p3-reading-sign
 *.service.arpa
 *.carsql.com
 *.invalid
-*dc-telemetry.net
+*dc-telemetry.net.lan
 *.dnscheck.tools
 *.rest
 
