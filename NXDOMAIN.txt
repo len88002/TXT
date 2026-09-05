@@ -55,9 +55,6 @@ apps.darken.eu
 #io
 dem.exp.shopee.io
 
-#lan
-_tcp.lan
-
 #net
 null-addr.net
 none-pushcl.np.communication.playstation.net
