@@ -58,7 +58,7 @@ apps.darken.eu
 dem.exp.shopee.io
 
 #lan
-tcp.lan
+_tcp.lan
 
 #net
 null-addr.net
