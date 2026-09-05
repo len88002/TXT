@@ -2,9 +2,7 @@
 *.service.arpa
 *.carsql.com
 *.invalid
-*.invalid.lan
 *dc-telemetry.net
-*dc-telemetry.net.lan
 *.dnscheck.tools
 *.rest
 
