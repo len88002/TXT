@@ -13,7 +13,7 @@
 |*|$ctag=device_camera,denyallow=cloudlinks.cn|ovslegodl.sched.ovscdns.com|cloud-links.net,dnsrewrite=NOERROR
 
 !Line
-@@|uts-front.line-apps.com|
+||uts-front.line-apps.com^$badfilter
 
 !router
 |*|$client='Asus Router',denyallow=dns.msftncsi.com|routerahs.asus.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org,dnsrewrite=SERVFAIL
