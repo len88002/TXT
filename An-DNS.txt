@@ -6,8 +6,8 @@
 #||$dnsrewrite=NOERROR
 #||$dnstype=HTTPS
 
-!Adguard
-|*cname*adguard-vpn.online|
+
+!Rules
 
 !Camera
 |*|$ctag=device_camera,denyallow=cloudlinks.cn|ovslegodl.sched.ovscdns.com|cloud-links.net,dnsrewrite=NOERROR
@@ -83,6 +83,9 @@
 
 !null
 ||odc.null|
+
+!online
+|*cname*adguard-vpn.online|
 
 !org
 ||ceffpgmgaoapphfijfinjppigbfibnnp.chromiumapp.org|
