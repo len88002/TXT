@@ -1,5 +1,0 @@
-#E-H Galleries
-*.hath.network
-
-#TaipeiFubon
-*.taipeifubon.com.tw
