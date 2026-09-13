@@ -20,6 +20,7 @@
 
 
 !NXDOMAIN
+|*|$client='NXDOMAIN'
 
 !arpa
 |*.service.arpa|
