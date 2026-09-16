@@ -20,91 +20,91 @@
 
 
 !NXDOMAIN
-|*|$client='NXDOMAIN'
+|*|$client=::1,dnsrewrite=NXDOMAIN
 
 !arpa
-|*.service.arpa|
+|*.service.arpa|$dnsrewrite=NXDOMAIN
 
 !cn
-||checkcer.cloudlinks.cn|
-||scs.openspeech.cn|
+||checkcer.cloudlinks.cn|$dnsrewrite=NXDOMAIN
+||scs.openspeech.cn|$dnsrewrite=NXDOMAIN
 
 !co
-||alog.umeng.co|
+||alog.umeng.co|$dnsrewrite=NXDOMAIN
 
 !com
-||cimg.178.com|
-||db.178.com|
-||offline.aps.amap.com|
-||itori.animenfo.com|
-|*.carsql.com|
-||sf-saas.cdn-apple.com|
-||assets2.coupang.com|
-||private.coupang.com|
-||mobile-webview.gmail.com|
-||m-adnet.hiaiabc.com|
-||s0.hdslb.com|
-||e-ltvp.inmobi.com|
-||apps.itunes-nocookie.com|
-||strapi.kchlu.com|
-||ukuma.liontravel.com|
-||static.luyanghui.com|
-||images.microbadger.com|
-||inputsuggestions.msdxcdn.microsoft.com|
-||pti.store.microsoft.com|
-||staging.to-do.microsoft.com|
-||thing.miniapp.com|
-||null-addr.com|
-||staging.to-do.officeppe.com|
-||idv045t.qiniudns.com|
-||cdn.raptive.com|
-||_http._tcp.archive.raspberrypi.com|
-||live-feed.rnote.com|
-||live-room-dall.rnote.com|
-||gameconsolehelper.rogsvc.com|
-||tap.walmart.com|
-||www&google.com|
-||static.zhimg.com|
+||cimg.178.com|$dnsrewrite=NXDOMAIN
+||db.178.com|$dnsrewrite=NXDOMAIN
+||offline.aps.amap.com|$dnsrewrite=NXDOMAIN
+||itori.animenfo.com|$dnsrewrite=NXDOMAIN
+|*.carsql.com|$dnsrewrite=NXDOMAIN
+||sf-saas.cdn-apple.com|$dnsrewrite=NXDOMAIN
+||assets2.coupang.com|$dnsrewrite=NXDOMAIN
+||private.coupang.com|$dnsrewrite=NXDOMAIN
+||mobile-webview.gmail.com|$dnsrewrite=NXDOMAIN
+||m-adnet.hiaiabc.com|$dnsrewrite=NXDOMAIN
+||s0.hdslb.com|$dnsrewrite=NXDOMAIN
+||e-ltvp.inmobi.com|$dnsrewrite=NXDOMAIN
+||apps.itunes-nocookie.com|$dnsrewrite=NXDOMAIN
+||strapi.kchlu.com|$dnsrewrite=NXDOMAIN
+||ukuma.liontravel.com|$dnsrewrite=NXDOMAIN
+||static.luyanghui.com|$dnsrewrite=NXDOMAIN
+||images.microbadger.com|$dnsrewrite=NXDOMAIN
+||inputsuggestions.msdxcdn.microsoft.com|$dnsrewrite=NXDOMAIN
+||pti.store.microsoft.com|$dnsrewrite=NXDOMAIN
+||staging.to-do.microsoft.com|$dnsrewrite=NXDOMAIN
+||thing.miniapp.com|$dnsrewrite=NXDOMAIN
+||null-addr.com|$dnsrewrite=NXDOMAIN
+||staging.to-do.officeppe.com|$dnsrewrite=NXDOMAIN
+||idv045t.qiniudns.com|$dnsrewrite=NXDOMAIN
+||cdn.raptive.com|$dnsrewrite=NXDOMAIN
+||_http._tcp.archive.raspberrypi.com|$dnsrewrite=NXDOMAIN
+||live-feed.rnote.com|$dnsrewrite=NXDOMAIN
+||live-room-dall.rnote.com|$dnsrewrite=NXDOMAIN
+||gameconsolehelper.rogsvc.com|$dnsrewrite=NXDOMAIN
+||tap.walmart.com|$dnsrewrite=NXDOMAIN
+||www&google.com|$dnsrewrite=NXDOMAIN
+||static.zhimg.com|$dnsrewrite=NXDOMAIN
 
 !eu
-||apps.darken.eu|
+||apps.darken.eu|$dnsrewrite=NXDOMAIN
 
 !invalid
-|*.invalid|
+|*.invalid|$dnsrewrite=NXDOMAIN
 
 !io
-||dem.exp.shopee.io|
+||dem.exp.shopee.io|$dnsrewrite=NXDOMAIN
 
 !net
-|*dc-telemetry.net|
-||null-addr.net
-||none-pushcl.np.communication.playstation.net|
-||ps5cel.np.dl.playstation.net|
+|*dc-telemetry.net|$dnsrewrite=NXDOMAIN
+||null-addr.net|$dnsrewrite=NXDOMAIN
+||none-pushcl.np.communication.playstation.net|$dnsrewrite=NXDOMAIN
+||ps5cel.np.dl.playstation.net|$dnsrewrite=NXDOMAIN
 
 !null
-||odc.null|
+||odc.null|$dnsrewrite=NXDOMAIN
 
 !online
-|*cname*adguard-vpn.online|
+|*cname*adguard-vpn.online|$dnsrewrite=1.2.3.4
 
 !org
-||ceffpgmgaoapphfijfinjppigbfibnnp.chromiumapp.org|
-||null-addr.org|
+||ceffpgmgaoapphfijfinjppigbfibnnp.chromiumapp.org|$dnsrewrite=NXDOMAIN
+||null-addr.org|$dnsrewrite=NXDOMAIN
 
 !taipeinull
-||uni-one.thurc.org.taipeinull|
+||uni-one.thurc.org.taipeinull|$dnsrewrite=NXDOMAIN
 
 !tools
-|*.dnscheck.tools|
+|*.dnscheck.tools|$dnsrewrite=NXDOMAIN
 
 !tw
-||estatement.skbank.com.tw|
-||cxa.skfh.com.tw|
-||cwb.gov.tw|
-||iccert.nhi.gov.tw|
+||estatement.skbank.com.tw|$dnsrewrite=NXDOMAIN
+||cxa.skfh.com.tw|$dnsrewrite=NXDOMAIN
+||cwb.gov.tw|$dnsrewrite=NXDOMAIN
+||iccert.nhi.gov.tw|$dnsrewrite=NXDOMAIN
 
 !rest
-|*.rest|
+|*.rest|$dnsrewrite=NXDOMAIN
 
 !sg
 ||df.infra.test.shopee.sg|
