@@ -20,7 +20,6 @@
 
 
 !NXDOMAIN
-|*|$client=::1,dnsrewrite=NXDOMAIN
 
 !arpa
 |*.service.arpa|$dnsrewrite=NXDOMAIN
