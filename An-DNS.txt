@@ -19,8 +19,7 @@
 |*|$client='Asus Router',denyallow=dns.msftncsi.com|routerahs.asus.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org,dnsrewrite=SERVFAIL
 
 !Web Proxy Auto-Discovery Protocol
-||wpad|
-||wpad.*|
+||wpad*|$ctag=os_windows
 
 !NXDOMAIN
 
