@@ -3,6 +3,7 @@
 !Example
 #||$dnsrewrite=NXDOMAIN
 #||$dnsrewrite=SERVFAIL
+#||$dnsrewrite=REFUSED
 #||$dnsrewrite=NOERROR
 #||$dnstype=HTTPS
 
@@ -16,10 +17,10 @@
 ||uts-front.line-apps.com^$badfilter
 
 !router
-|*|$client='Asus Router',denyallow=dns.msftncsi.com|routerahs.asus.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org,dnsrewrite=SERVFAIL
+|*|$client='Asus Router',denyallow=dns.msftncsi.com|routerahs.asus.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org,dnsrewrite=REFUSED
 
 !Web Proxy Auto-Discovery Protocol
-||wpad*|$ctag=os_windows
+||wpad*|$ctag=os_windows,dnsrewrite=REFUSED
 
 !NXDOMAIN
 
