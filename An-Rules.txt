@@ -6,3 +6,6 @@
 !look.thisiscm.com
 look.thisiscm.com###chapterWarp > div.chapter-content.px-3:last-child > div.content.py-5:last-child > div:last-child
 look.thisiscm.com###chapterWarp > div.chapter-content.px-3:last-child > div.content.py-5:last-child > div:nth-child(58)
+
+!Youtube
+youtube.com###dismissible
