@@ -22,6 +22,7 @@
 !Line
 ||uts-front.line-apps.com^$badfilter
 |legy.line-apps.com|$dnsrewrite=NOERROR;CNAME;legy-jp-addr-ds.line-apps.com
+|obs.line-apps.com|$dnsrewrite=NOERROR;CNAME;obs-jp2-addr-ds.line-apps.com
 
 !router
 |*|$client='Asus Router',denyallow=dns.msftncsi.com|routerahs.asus.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org,dnsrewrite=REFUSED
