@@ -24,6 +24,9 @@
 |legy.line-apps.com|$dnsrewrite=NOERROR;CNAME;legy-jp-addr-ds.line-apps.com
 |obs.line-apps.com|$dnsrewrite=NOERROR;CNAME;obs-jp2-addr-ds.line-apps.com
 
+!NextDNS
+|*.test.nextdns.io|$dnsrewrite=NOERROR;CNAME;test.nextdns.io
+
 !router
 |*|$client='Asus Router',denyallow=dns.msftncsi.com|routerahs.asus.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org,dnsrewrite=REFUSED
 
