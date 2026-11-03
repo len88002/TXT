@@ -10,6 +10,9 @@
 
 !Rules
 
+!AdguardDNS
+|*-dnscheck.adguard-dns.com|$dnsrewrite=NOERROR;CNAME;dns.adguard-dns.com
+
 !AdguardVPN
 |*cname*adguard-vpn.online|$dnsrewrite=1.2.3.4
 
