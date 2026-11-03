@@ -10,14 +10,26 @@
 
 !Rules
 
+!Camera
+|*|$ctag=device_camera,denyallow=cloudlinks.cn|ovslegodl.sched.ovscdns.com|cloud-links.net
+
+!Line
+||uts-front.line-apps.com^$badfilter
+
+!router
+|*|$client='Asus Router',denyallow=dns.msftncsi.com|routerahs.asus.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org,dnsrewrite=REFUSED
+
+!Web Proxy Auto-Discovery Protocol
+||wpad.*|$ctag=os_windows
+
+
+!Rewrites
+
 !AdguardDNS
 |*-dnscheck.adguard-dns.com|$dnsrewrite=NOERROR;CNAME;dns.adguard-dns.com
 
 !AdguardVPN
 |*cname*adguard-vpn.online|$dnsrewrite=1.2.3.4
-
-!Camera
-|*|$ctag=device_camera,denyallow=cloudlinks.cn|ovslegodl.sched.ovscdns.com|cloud-links.net
 
 !CloudFlareDNS
 |*.help.every1dns.net|$dnsrewrite=NOERROR;CNAME;help.every1dns.net
@@ -25,19 +37,27 @@
 !Discord
 ||discord.media|$dnsrewrite=NOERROR;CNAME;latency.discord.media,denyallow=latency.discord.media
 
+!IPv4only
+||ipv4only.arpa|$dnsrewrite=NOERROR;A;192.0.0.170
+||ipv4only.arpa|$dnsrewrite=NOERROR;A;192.0.0.171
+
 !Line
-||uts-front.line-apps.com^$badfilter
 |legy.line-apps.com|$dnsrewrite=NOERROR;CNAME;legy-jp-addr-ds.line-apps.com
 |obs.line-apps.com|$dnsrewrite=NOERROR;CNAME;obs-jp2-addr-ds.line-apps.com
+
+!NCSI
+|dns.msftncsi.com|$dnsrewrite=NOERROR;A;131.107.255.255
+|dns.msftncsi.com|$dnsrewrite=NOERROR;AAAA;fd3e:4f5a:5b81::1
 
 !NextDNS
 |*.test.nextdns.io|$dnsrewrite=NOERROR;CNAME;test.nextdns.io
 
-!router
-|*|$client='Asus Router',denyallow=dns.msftncsi.com|routerahs.asus.com|pool.ntp.org|fwupdate.asuswrt-merlin.net|pub.3gppnetwork.org,dnsrewrite=REFUSED
-
-!Web Proxy Auto-Discovery Protocol
-||wpad.*|$ctag=os_windows
+!TPlink
+|relay-ipc.tplinkcloud.com.cn|$dnsrewrite=NOERROR;A;1.13.112.99
+|relay-ipc.tplinkcloud.com.cn|$dnsrewrite=NOERROR;A;1.13.112.190
+|relay-ipc.tplinkcloud.com.cn|$dnsrewrite=NOERROR;A;1.13.116.27
+|relay-ipc.tplinkcloud.com.cn|$dnsrewrite=NOERROR;A;1.13.116.119
+|relay-ipc.tplinkcloud.com.cn|$dnsrewrite=NOERROR;A;1.13.126.43
 
 !NXDOMAIN
 
