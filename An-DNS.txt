@@ -16,6 +16,9 @@
 !Camera
 |*|$ctag=device_camera,denyallow=cloudlinks.cn|ovslegodl.sched.ovscdns.com|cloud-links.net
 
+!CloudFlareDNS
+|*.help.every1dns.net|$dnsrewrite=NOERROR;CNAME;help.every1dns.net
+
 !Discord
 ||discord.media|$dnsrewrite=NOERROR;CNAME;latency.discord.media,denyallow=latency.discord.media
 
