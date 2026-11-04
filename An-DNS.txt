@@ -52,12 +52,16 @@
 !NextDNS
 |*.test.nextdns.io|$dnsrewrite=NOERROR;CNAME;test.nextdns.io
 
+!TaipeiFubon
+|*.taipeifubon.com.tw|$dnstype=~A,dnsrewrite=NXDOMAIN
+
 !TPlink
 |relay-ipc.tplinkcloud.com.cn|$dnsrewrite=NOERROR;A;1.13.112.99
 |relay-ipc.tplinkcloud.com.cn|$dnsrewrite=NOERROR;A;1.13.112.190
 |relay-ipc.tplinkcloud.com.cn|$dnsrewrite=NOERROR;A;1.13.116.27
 |relay-ipc.tplinkcloud.com.cn|$dnsrewrite=NOERROR;A;1.13.116.119
 |relay-ipc.tplinkcloud.com.cn|$dnsrewrite=NOERROR;A;1.13.126.43
+
 
 !NXDOMAIN
 
