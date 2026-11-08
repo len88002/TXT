@@ -37,30 +37,15 @@
 !Discord
 ||discord.media|$dnsrewrite=NOERROR;CNAME;latency.discord.media,denyallow=latency.discord.media
 
-!IPv4only
-||ipv4only.arpa|$dnsrewrite=NOERROR;A;192.0.0.170
-||ipv4only.arpa|$dnsrewrite=NOERROR;A;192.0.0.171
-
 !Line
 |legy.line-apps.com|$dnsrewrite=NOERROR;CNAME;legy-jp-addr-ds.line-apps.com
 |obs.line-apps.com|$dnsrewrite=NOERROR;CNAME;obs-jp2-addr-ds.line-apps.com
-
-!NCSI
-|dns.msftncsi.com|$dnsrewrite=NOERROR;A;131.107.255.255
-|dns.msftncsi.com|$dnsrewrite=NOERROR;AAAA;fd3e:4f5a:5b81::1
 
 !NextDNS
 |*.test.nextdns.io|$dnsrewrite=NOERROR;CNAME;test.nextdns.io
 
 !TaipeiFubon
 |*.taipeifubon.com.tw|$dnstype=~A,dnsrewrite=NXDOMAIN
-
-!TPlink
-|relay-ipc.tplinkcloud.com.cn|$dnsrewrite=NOERROR;A;1.13.112.99
-|relay-ipc.tplinkcloud.com.cn|$dnsrewrite=NOERROR;A;1.13.112.190
-|relay-ipc.tplinkcloud.com.cn|$dnsrewrite=NOERROR;A;1.13.116.27
-|relay-ipc.tplinkcloud.com.cn|$dnsrewrite=NOERROR;A;1.13.116.119
-|relay-ipc.tplinkcloud.com.cn|$dnsrewrite=NOERROR;A;1.13.126.43
 
 !Twtch
 ||ext-twitch.tv|$dnsrewrite=NOERROR;CNAME;supervisor.ext-twitch.tv,denyallow=supervisor.ext-twitch.tv
