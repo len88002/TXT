@@ -10,9 +10,6 @@
 
 !Rules
 
-!Camera
-|*|$ctag=device_camera,denyallow=cloudlinks.cn|ovslegodl.sched.ovscdns.com|cloud-links.net
-
 !Line
 ||uts-front.line-apps.com^$badfilter
 
