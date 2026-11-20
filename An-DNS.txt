@@ -10,9 +10,6 @@
 
 !Rules
 
-!Line
-||uts-front.line-apps.com^$badfilter
-
 !Web Proxy Auto-Discovery Protocol
 ||wpad.*|$ctag=os_windows
 
