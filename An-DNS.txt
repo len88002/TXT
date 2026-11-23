@@ -28,11 +28,6 @@
 !Discord
 ||discord.media|$dnsrewrite=NOERROR;CNAME;latency.discord.media,denyallow=latency.discord.media
 
-!Line
-|legy.line-apps.com|$dnsrewrite=NOERROR;CNAME;legy-jp-addr-ds.line-apps.com
-|obs.line-apps.com|$dnsrewrite=NOERROR;CNAME;obs-jp2-addr-ds.line-apps.com
-|cix.line-apps.com|$dnsrewrite=NOERROR;CNAME;legy-jp.line-apps.com.akadns.net
-
 !NextDNS
 |*.test.nextdns.io|$dnsrewrite=NOERROR;CNAME;test.nextdns.io
 
