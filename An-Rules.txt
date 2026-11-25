@@ -2,6 +2,8 @@
 
 !LAN
 @@||lan^$stealth
+@@||lan^$removeparam
+@@||lan^$cookie
 
 !connect.raspberrypi.com
 @@||connect.raspberrypi.com^$important,document
