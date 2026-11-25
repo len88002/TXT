@@ -1,5 +1,8 @@
 ! Title: An-Rules Filter
 
+!LAN
+@@||lan^$important
+
 !connect.raspberrypi.com
 @@||connect.raspberrypi.com^$important,document
 
