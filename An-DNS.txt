@@ -31,6 +31,10 @@
 !NextDNS
 |*.test.nextdns.io|$dnsrewrite=NOERROR;CNAME;test.nextdns.io
 
+!Novel543
+|look.twword.com|$dnsrewrite=NOERROR;CNAME;look.thisiscm.com,ctag=os_macos
+|look.thisiscm.com|$dnsrewrite=NOERROR;CNAME;look.twword.com,ctag=os_ios
+
 !TaipeiFubon
 |*.taipeifubon.com.tw|$dnstype=~A,dnsrewrite=NXDOMAIN
 
